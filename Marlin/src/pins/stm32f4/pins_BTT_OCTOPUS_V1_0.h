@@ -145,12 +145,6 @@
   #define POWER_LOSS_PIN                    PC0   // PWRDET
 #endif
 
-//
-// NeoPixel LED
-//
-#ifndef NEOPIXEL_PIN
-  #define NEOPIXEL_PIN                      PB0
-#endif
 
 //
 // Steppers
@@ -528,3 +522,11 @@
 #define ESP_WIFI_MODULE_ENABLE_PIN          PG8
 #define ESP_WIFI_MODULE_GPIO0_PIN           PD7
 #define ESP_WIFI_MODULE_GPIO4_PIN           PD10
+
+
+//
+// NeoPixel LED
+//
+#ifndef NEOPIXEL_PIN
+  #define NEOPIXEL_PIN                      PB0
+#endif

@@ -731,7 +731,7 @@
     #endif
   #endif
   #if defined(Z2_STALL_SENSITIVITY) && ENABLED(Z_MULTI_ENDSTOPS) && NUM_Z_STEPPER_DRIVERS >= 2 && _PEXI(Z2_E_INDEX, DIAG)
-    #define Z2_DIAG_PIN _EPIN(Z2_E_INDEX, DIAG)
+    //#define Z2_DIAG_PIN _EPIN(Z2_E_INDEX, DIAG)
     #if   DIAG_REMAPPED(Z2, X_MIN)
       #define Z2_USE_ENDSTOP _XMIN_
     #elif DIAG_REMAPPED(Z2, Y_MIN)
